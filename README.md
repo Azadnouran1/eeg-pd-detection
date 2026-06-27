@@ -1,4 +1,4 @@
-# EEG-Based Computer-Aided Diagnosis of Parkinson's Disease Using Time-Frequency Representations and Deep Learning
+# EEG-based Parkinson's Disease Detection using Empirical Wavelet Transform and Convolutional Neural Networks
 
 This repository contains the official implementation for the manuscript:
 
