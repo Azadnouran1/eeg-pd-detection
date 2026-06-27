@@ -128,6 +128,7 @@ pip install -r requirements.txt
 This study uses the publicly available **Iowa EEG dataset**. TFR images were generated from preprocessed EEG recordings using MATLAB (MSPCA artifact removal, ASR, bandpass/notch filtering, CAR referencing).
 
 Processed TFR image datasets are available on Kaggle:
+
 https://www.kaggle.com/datasets/maxazadnouran/parkinson-tfr-datasets
 
 > Update the dataset path constants at the top of each training script to match your local directory structure before running.
