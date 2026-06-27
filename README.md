@@ -98,6 +98,7 @@ A Streamlit-based prototype application that:
 - Displays the classification result (HC vs PD) with confidence score
 - Generates a GPT-4o-powered clinical summary and treatment plan suggestion based on the prediction
 Demo video: https://youtu.be/-rVxRi0KGm8?si=mSphVCvdsE4Ev9au
+
 To run the app locally:
 ```bash
 streamlit run clinical_app/app.py
