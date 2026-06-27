@@ -97,7 +97,7 @@ A Streamlit-based prototype application that:
 - Runs inference using the trained EWT model
 - Displays the classification result (HC vs PD) with confidence score
 - Generates a GPT-4o-powered clinical summary and treatment plan suggestion based on the prediction
-
+Demo video: https://youtu.be/-rVxRi0KGm8?si=mSphVCvdsE4Ev9au
 To run the app locally:
 ```bash
 streamlit run clinical_app/app.py
@@ -124,6 +124,9 @@ pip install -r requirements.txt
 ## Dataset
 
 This study uses the publicly available **Iowa EEG dataset**. TFR images were generated from preprocessed EEG recordings using MATLAB (MSPCA artifact removal, ASR, bandpass/notch filtering, CAR referencing).
+
+Processed TFR image datasets are available on Kaggle:
+https://www.kaggle.com/datasets/maxazadnouran/parkinson-tfr-datasets
 
 > Update the dataset path constants at the top of each training script to match your local directory structure before running.
 
